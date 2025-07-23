@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>MJ HomeFix</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>M.J HomeFix</h1>
+    
+        <nav class="desktop-nav">
+          <a href="./index.html">Home</a>
+          <a href="./aboutus.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./book.html">Book Now</a>
+        </nav>
+    
+        <div class="mobile-menu-icon" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="close-btn" onclick="toggleMenu()">×</div>
+        <div class="menu-links">
+          <a href="./index.html">Home</a>
+          <a href="./aboutus.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./book.html">Book now</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="services-section">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p class="subtitle">
+          We're here to help with all your home repair needs. Reach out through
+          any of these channels.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="icon"><img src="./email.png" alt="tile" /></div>
+            <h3>Email</h3>
+            <p>mjhomefix@gmail.com</p>
+          </div>
+          <div class="service-card">
+            <div class="icon"><img src="./telephone.png" alt="" /></div>
+            <h3>telephone</h3>
+            <p>(360) 910-2439</p>
+          </div>
+
+          <div class="service-card">
+            <div class="icon"><img src="./instagram.png" alt="" /></div>
+            <h3>instagram</h3>
+            <p>MJHomeFix</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviw">
+      <h1>Leave Your review</h1>
+      <p class="subtitle">
+        We value your feedback! Please take a moment to share your experience
+        with us. Your input helps us improve our services and better serve you
+        in the future.
+      </p>
+
+      <div class="container2">
+        <div class="form-card">
+          <div class="form-group">
+            <div>
+              <label>Name</label>
+              <input type="text" placeholder="Your name" />
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="email" placeholder="Your email" />
+            </div>
+          </div>
+          <div style="margin-top: 20px">
+            <label>Subject</label>
+            <input type="text" placeholder="How can we help you?" />
+          </div>
+          <div style="margin-top: 20px">
+            <label>Message</label>
+            <textarea
+              placeholder="Please provide details about your inquiry"
+            ></textarea>
+          </div>
+          <button>Send Message</button>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="info-card">
+          <div class="info-box">
+            <i class="fas fa-phone"></i>
+            <div class="info-text">
+              <strong>Phone</strong>
+              <span>(360) 910-2439</span>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <div class="info-text">
+              <strong>Email</strong>
+              <span>mjhomefix@gmail.com</span>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info-text">
+              <strong>Address</strong>
+              <span>123 Repair Avenue<br />Fixitville, FX 12345</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Handy Home Helpers</h3>
+          <p>
+            Professional home repair services with a commitment to quality and
+            reliability.
+          </p>
+        </div>
+       
+        <div class="footer-section">
+         
+          <p>Phone: (360) 910-2439</p>
+          <p>
+            Email:
+            <a href="mailto:mjhomefix@gmail.com"
+              >mjhomefix@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 MJ HomeFix. All rights reserved.
+      </div>
+    </footer>
+  </body>
+  <script src="./main.js"></script>
+</html>

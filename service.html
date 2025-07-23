@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MJ HomeFix</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>M.JHomeFix</h1>
+    
+        <nav class="desktop-nav">
+          <a href="./index.html">Home</a>
+          <a href="./aboutus.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./book.html">Book Now</a>
+        </nav>
+    
+        <div class="mobile-menu-icon" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="close-btn" onclick="toggleMenu()">×</div>
+        <div class="menu-links">
+          <a href="./index.html">Home</a>
+          <a href="./aboutus.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./book.html">Book now</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="services-section">
+      <div class="container">
+        <h2>Our Professional Services</h2>
+        <p class="subtitle">
+          We offer comprehensive home repair and maintenance services delivered
+          by experienced professionals committed to quality.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="icon"><img src="./tiles.png" alt="tile" /></div>
+            <h3>tile & Tile baseboard</h3>
+            <p>
+              From basic repairs to custom woodworking, our skilled carpenters
+              can handle all your woodwork needs with precision and care.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon"><img src="./shield.png" alt="" /></div>
+            <h3>opan locks</h3>
+            <p>
+              Fix leaks, replace fixtures, or address major plumbing concerns
+              with our professional plumbing solutions.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon"><img src="./lightning.png" alt="" /></div>
+            <h3>Electrical Repairs</h3>
+            <p>
+              Safe and reliable electrical work performed by certified
+              technicians for all your home electrical requirements.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon"><img src="./wrench.png" alt="" /></div>
+            <h3>General Maintenance</h3>
+            <p>
+              Regular maintenance and quick fixes to keep your home in optimal
+              condition year-round.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon"><img src="./paint-roller.png" alt="" /></div>
+            <h3>Painting Services</h3>
+            <p>
+              Transform your space with professional painting services,
+              including interior and exterior painting with premium materials.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon"><img src="./thermometer.png" alt="" /></div>
+            <h3>HVAC Services</h3>
+            <p>
+              Installation, repair, and maintenance for heating, ventilation,
+              and air conditioning systems for optimal home comfort.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </body>
+  <script src="./main.js"></script>
+</html>
